@@ -1,0 +1,142 @@
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f9f9f9
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.boxhead {
+    position: absolute;
+    background: blue;
+    width: 95%;
+    height: 200px;
+    border-radius: 1em;
+    align-self: center;
+    margin-top: 220px;
+}
+
+.boxhead img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1em;
+    box-shadow: 0 0 10px #333;
+}
+
+.profile {
+    position: absolute;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #333;
+    align-self: center;
+    z-index: 1;
+    margin-top: 400px;
+}
+
+.nevada {
+    display: block;
+    width: 90%;
+    background: #333;
+    height: 10px;
+    z-index: 1;
+    margin: auto;
+    border-radius: 1rem;
+    margin-top: 325px;
+}
+
+.nevada1 {
+    display: block;
+    width: 60%;
+    background: #333;
+    height: 5px;
+    z-index: 1;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+h3 {
+    font-family: "ubuntu";
+    font-size: 32px;
+    text-align: center;
+}
+
+.linktype {
+    position: absolute;
+    display: block;
+    font-size: 12px;
+    font-family: "ubuntu";
+    left: 45%;
+    top: 390px;
+    color: #333;
+    filter: brightness(30%);
+}
+
+.container-link {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container-link img {
+    width: 80%;
+}
